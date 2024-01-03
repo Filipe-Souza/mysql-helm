@@ -14,7 +14,7 @@ busybox:
 testFramework:
   enabled: true
   image: "bats/bats"
-  tag: "1.2.1"
+  tag: "v1.10.0"
   imagePullPolicy: IfNotPresent
   securityContext: {}
 
@@ -164,7 +164,7 @@ mysqlx:
 metrics:
   enabled: false
   image: prom/mysqld-exporter
-  imageTag: v0.10.0
+  imageTag: v0.15.0
   imagePullPolicy: IfNotPresent
   resources: {}
   annotations: {}

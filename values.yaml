@@ -9,7 +9,7 @@ strategy:
 
 busybox:
   image: "busybox"
-  tag: "1.32"
+  tag: "1.36"
 
 testFramework:
   enabled: true
